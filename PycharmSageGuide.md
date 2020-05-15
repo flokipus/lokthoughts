@@ -15,6 +15,9 @@
 распакован сам архив)
 - обязательно поставить галку Inherit global site-packages
 - галка Make available to all projects опциональна.
+5. UPDATE: в папку ~/myenv/sageenv/bin/ (у нас в ~/myenv/sageenv/ лежит environment) скопировать файл sage-maxima.lisp из каталога ~/sage/local/bin:
+
+cp ~/sage/local/bin/sage-maxima.lisp ~/myenv/sageenv/bin/sage-maxima.lisp
 
 Все. Далее 
 from sage.all import *
